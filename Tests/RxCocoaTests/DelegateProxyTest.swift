@@ -765,9 +765,14 @@ extension MockTestDelegateProtocol
 #endif
 
 #if os(iOS)
+//extension MockTestDelegateProtocol
+//    : UIPickerViewDelegate
+//    , UIWebViewDelegate
+//{
+//}
+
 extension MockTestDelegateProtocol
     : UIPickerViewDelegate
-    , UIWebViewDelegate
 {
 }
 #endif
